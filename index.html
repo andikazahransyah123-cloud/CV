@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website - Full Stack Developer">
+    <title>Portfolio | Andika Zahansyah Dzakwan</title>
+    
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#profil" class="nav-logo">Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#profil" class="nav-link">Profil</a></li>
+                <li><a href="#skill" class="nav-link">Skill</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero/Profil Section -->
+    <section id="profil" class="section profil-section">
+        <div class="container">
+            <div class="profil-content">
+                <div class="profil-image-wrapper">
+                    <img 
+                        src="../IMG-20250816-WA0033.jpg.jpeg"
+                        alt="IMG-20250816-WA0033.jpg.jpeg" 
+                        class="profil-image"
+                    >
+                </div>
+                <div class="profil-text">
+                    <h1 class="profil-name">Halo, Saya <span class="highlight">Andika Zahansyah Dzakwan</span></h1>
+                    <p class="profil-title">Mahasiswa</p>
+                    <p class="profil-description">
+                        Lulusan SMA yang antusias dan memiliki ketertarikan mendalam dalam dunia Information Technology. 
+                        Memiliki kemampuan analitis yang kuat dan kemauan belajar mandiri yang tinggi dalam memahami bahasa pemrograman dasar dan sistem jaringan. 
+                        Saat ini sedang fokus mengembangkan keterampilan teknis secara otodidak dan mencari peluang untuk berkontribusi sebagai staf pendukung TI.
+                    </p>
+                    <div class="profil-cta">
+                        <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section id="skill" class="section skill-section">
+        <div class="container">
+            <h2 class="section-title">Keahlian & Teknologi</h2>
+            <p class="section-subtitle">Teknologi dan tools yang saya kuasai</p>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="bi bi-code-slash"></i> Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+
+                <!-- Front-End -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="bi bi-browser-chrome"></i> Front-End
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- Back-End -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="bi bi-server"></i> Back-End
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="bi bi-box-seam"></i> Frameworks
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vite</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="bi bi-database"></i> Databases
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Supabase</span>
+                    </div>
+                </div>
+
+                <!-- Deployment & Infrastructure -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="bi bi-cloud-arrow-up"></i> Deployment & Infrastructure
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Netlify</span>
+                        <span class="skill-tag">Hostinger</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="section kontak-section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <p class="section-subtitle">Tertarik bekerja sama? Mari terhubung!</p>
+            
+            <div class="kontak-content">
+                <div class="kontak-info">
+                    <p class="kontak-description">
+                        Saya selalu terbuka untuk peluang kolaborasi, diskusi teknologi, 
+                        atau sekadar bertukar pengalaman. Jangan ragu untuk menghubungi saya 
+                        melalui media sosial atau email.
+                    </p>
+                    
+                    <div class="social-links">
+                        <a 
+                            href="https://instagram.com/adz_dika" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            aria-label="Instagram"
+                        >
+                            <i class="bi bi-instagram"></i>
+                            <span>@adz_dika</span>
+                        </a>
+                        
+                        <a 
+                            href="https://github.com/andikazahransyah123-cloud" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="social-link"
+                            aria-label="GitHub"
+                        >
+                            <i class="bi bi-github"></i>
+                            <span>andikazahransyah123-cloud</span>
+                        </a>
+                        
+                        <a 
+                            href="mailto:andikazahransyah123@gmail.com" 
+                            class="social-link"
+                            aria-label="Email"
+                        >
+                            <i class="bi bi-envelope"></i>
+                            <span>andikazahransyah123@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container"> 
+            <p>&copy; 2026 Andika Zahansyah Dzakwan.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
